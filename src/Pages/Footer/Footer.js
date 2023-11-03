@@ -5,7 +5,7 @@ import FooterNav from './FooterNav'
 function Footer() {
     return (
         <>
-            <div className='footer-main fixed-bottom'>
+            <div className='footer-main'>
                 <FooterInput />
                 <FooterNav/>
             </div>

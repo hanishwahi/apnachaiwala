@@ -3,9 +3,11 @@ import Navbar from './Navbar'
 
 function Header() {
   return (
-     <>
-     <Navbar/>
-     </>
+    <>
+      <div className='sticky-top'>
+        <Navbar />
+      </div>
+    </>
   )
 }
 
