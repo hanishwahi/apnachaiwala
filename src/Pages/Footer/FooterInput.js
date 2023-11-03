@@ -15,11 +15,11 @@ function FooterInput() {
                             <input type="number" placeholder='ENTER PHONE NUMBER' />
                         </div>
                         <div className="col-lg-3">
-                            <div className="row align-items-center">
-                                <div className="col-lg-2">
+                            <div className="row align-items-center justify-content-between text-end">
+                                <div className="col-lg-4 px-0">
                                     <img src={footercall} alt="" width={40} />
                                 </div>
-                                <div className="col-lg-10 footer-text">
+                                <div className="col-lg-8 footer-text">
                                     <h3>Get A Call Back</h3>
                                 </div>
                             </div>

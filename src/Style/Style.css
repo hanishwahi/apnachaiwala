@@ -168,7 +168,7 @@ color: #EFB290;
 
 .missionbox {
     background-color: #1C1C1C;
-    padding: 40px; 
+    padding: 58px; 
     border-radius: 20px;
 }
 .missionbox p{
@@ -198,7 +198,7 @@ color: #FFFFFF;
 }
 .people-love{
     width: 70%;
-    margin: 80px auto;
+    margin: 60px auto;
 }
 
 .people-love h3{
@@ -231,7 +231,7 @@ color: #FFAB83;
 
 /* girl box  */
 .girlbox-main{
-    padding: 50px;
+    padding: 50px 0px;
 }
 .girlbox-margin{
     margin-top: 80px;
