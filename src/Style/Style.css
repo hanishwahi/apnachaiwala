@@ -5,7 +5,7 @@
 
 .navbar-main{
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     gap: 24px;
     align-items: center;
 }
@@ -19,4 +19,30 @@
 .navbar-main a:hover{
     color: #FFAB83;
     font-weight: 700;
+}
+
+
+
+/* footer  */
+.footer-main{
+    background-color:  #353535;
+    padding: 50px 0px;
+}
+.footer-form input{
+background-color: #3E3E3E;
+padding: 10px 20px;
+border: none;
+outline: none;
+width: 100%;
+border-radius: 10px;
+color: #fff;
+font-family: Poppins;
+}
+.footer-text h3{
+    text-decoration: none;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 700;
+    color: #8B8B8B;
+    margin: 0;
 }
