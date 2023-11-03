@@ -12,7 +12,7 @@ function FooterInput() {
                             <input type="text" placeholder='ENTER YOUR NAME' />
                         </div>
                         <div className="col-lg-4 footer-form">
-                            <input type="phone" placeholder='ENTER PHONE NUMBER' />
+                            <input type="number" placeholder='ENTER PHONE NUMBER' />
                         </div>
                         <div className="col-lg-3">
                             <div className="row align-items-center">

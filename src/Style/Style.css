@@ -54,13 +54,69 @@ body{
     text-align: center;
     color: #FFAB83;
 }
+
+.banner-button{
+    text-align: center;
+    width: 215px;
+    margin: 0px auto;
+    background-color: #353535;
+    padding: 15px;
+    border-radius: 15px;
+    margin-top: 50px;
+}
  
+.banner-button a{
+    font-family: Poppins;
+font-size: 20px;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: center;
+color: #FFFFFF;
+text-decoration: none;
+text-transform: uppercase;
+}
 
 
-
+.banner1cup{
+    margin-top: -170px;
+}
  
+/* homeabout  */
+.home-about{
+    background-color: #1C1C1C;
+    padding: 65px 75px;
+    border-radius: 35px;
+}
+.about-home-text h2{
+    font-family: Poppins;
+font-size: 36px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0em;
+text-align: left;
+color: #FFAB83;
+}
+.about-home-text h3{
+    font-family: Poppins;
+font-size: 36px;
+font-weight: 400;
+line-height: 36px;
+letter-spacing: 0em;
+text-align: left;
+color: #FFFFFF;
+}
 
-
+.about-home-text p{
+    font-family: Poppins;
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+color: #FFFFFF;
+padding: 30px 0px 0px 0px;
+}
 
 
 /* footer  */
@@ -79,6 +135,11 @@ color: #fff;
 font-family: Poppins;
 font-size: 20px;
 font-weight: 400;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
 .footer-text h3{
     text-decoration: none;
