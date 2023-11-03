@@ -185,7 +185,7 @@ color: #FFFFFF;
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    padding: 50px 0px;
+    padding: 80px 0px;
 }
 .people-love h2{
     font-family: Poppins;
@@ -229,7 +229,13 @@ text-align: center;
 color: #FFAB83;
 }
 
-
+/* girl box  */
+.girlbox-main{
+    padding: 50px;
+}
+.girlbox-margin{
+    margin-top: 80px;
+}
 
 
 
