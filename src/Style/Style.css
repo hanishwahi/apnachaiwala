@@ -118,6 +118,122 @@ color: #FFFFFF;
 padding: 30px 0px 0px 0px;
 }
 
+/* operational cafe  */
+.operational-cafe-main{
+    padding: 50px 0px;
+}
+.operational-cafe h2{
+    font-family: Poppins;
+font-size: 38px;
+font-weight: 600;
+line-height: 57px;
+letter-spacing: 0em;
+text-align: left;
+color: #FFFFFF;
+}
+.operational-cafe p{
+    font-family: Poppins;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    padding: 70px 0px;
+}
+
+.operational-cafe p span{
+    font-family: Poppins;
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFAB83;
+}
+ 
+/* mission box   */
+.missionbox h3{
+font-family: Poppins;
+font-size: 22px;
+font-weight: 700;
+line-height: 33px;
+letter-spacing: 0em;
+text-align: center;
+color: #FFFFFF;
+}
+.missionbox h3 span{
+color: #EFB290;
+}
+
+.missionbox {
+    background-color: #1C1C1C;
+    padding: 40px; 
+    border-radius: 20px;
+}
+.missionbox p{
+    font-family: Poppins;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: center;
+color: #FFFFFF;
+}
+.mission-bg{
+    background-image: url('../Images/missionbg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 50px 0px;
+}
+.people-love h2{
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 54px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+}
+.people-love{
+    width: 70%;
+    margin: 80px auto;
+}
+
+.people-love h3{
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFAB83;
+}
+.people-love p{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+}
+.people-love p span{
+    font-family: Poppins;
+font-size: 20px;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: center;
+color: #FFAB83;
+}
+
+
+
+
+
+
 
 /* footer  */
 .footer-main{
@@ -175,7 +291,7 @@ input::-webkit-inner-spin-button {
 .footer-social{
     display: flex;
     justify-content: center;
-    gap: 30px;
+  
     align-items: center;
 }
 .footer-social i{
@@ -185,6 +301,11 @@ input::-webkit-inner-spin-button {
     padding: 8px 11px;
     border-radius: 10px;
     cursor: pointer;
+    margin: 0px 20px;
+}
+
+.footer-border-right{
+    border-right: 3px solid #3E3E3E;
 }
 
 .footer-copyright{
@@ -192,18 +313,27 @@ input::-webkit-inner-spin-button {
 }
 .footer-copyright h3{
     font-family: Poppins;
-font-size: 16px;
-font-weight: 600;
-line-height: 16px;
-letter-spacing: 0em;
-text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: center;
 color: #938E8E;
 }
 .footer-copyright h3 span{
     color: #FFAB83;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: center;
 }
+  
 .border1{
     border: 1px solid #3E3E3E;
 }
+
+
 
  

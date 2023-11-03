@@ -17,9 +17,10 @@ function FooterNav() {
                         </div>
                     </div>
                     <div className="footer-social">
-                        <i class="fa-brands fa-facebook-f"></i>
-                        <i class="fa-brands fa-instagram"></i>
-                        <i class="fa-brands fa-youtube"></i>
+                       <div className='footer-border-right'><i class="fa-brands fa-facebook-f"></i></div>
+                       <div className='footer-border-right'><i class="fa-brands fa-instagram"></i></div>
+                       <div  ><i class="fa-brands fa-youtube"></i></div>
+                
                     </div>
 
                 </div>
