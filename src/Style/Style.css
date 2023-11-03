@@ -1,0 +1,22 @@
+.navbar-bg{
+    background-color:  #353535;
+    padding: 10px 0px;
+}
+
+.navbar-main{
+    display: flex;
+    justify-content: end;
+    gap: 24px;
+    align-items: center;
+}
+.navbar-main a{
+    text-decoration: none;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+}
+.navbar-main a:hover{
+    color: #FFAB83;
+    font-weight: 700;
+}
