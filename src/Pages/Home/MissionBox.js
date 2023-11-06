@@ -3,6 +3,9 @@ import heart from '../../Images/heart.png'
 import girl1 from '../../Images/girl1.png'
 import girl2 from '../../Images/girl2.png'
 import girl3 from '../../Images/girl3.png'
+import mission from '../../Images/mission1.png'
+import values from '../../Images/ourvalues.png'
+import vision from '../../Images/vision.png'
 
 function MissionBox() {
     return (
@@ -12,29 +15,35 @@ function MissionBox() {
                     <div className="row justify-content-around">
                         <div className="col-lg-4 col-sm-6 p-4">
                             <div className='missionbox'>
-                                <h3>OUR <span>MISSION</span></h3>
-                                <div className="col text-center py-4">
-                                    <img src={heart} alt="" width={50} />
+                                <div className='mission-inner'>
+                                    <h3>OUR <span>MISSION</span></h3>
+                                    <div className="col text-center py-4">
+                                        <img src={mission} alt="" width={50} />
+                                    </div>
                                 </div>
                                 <p>To offer world class chai experience in traditional styled Indian cafés at affordable prices for all chai lovers across the globe. </p>
                             </div>
                         </div>
                         <div className="col-lg-4 col-sm-6 p-4">
                             <div className='missionbox'>
-                                <h3>OUR <span>MISSION</span></h3>
-                                <div className="col text-center py-4">
-                                    <img src={heart} alt="" width={50} />
+                                <div className='mission-inner'>
+                                    <h3>OUR <span>VALUES</span></h3>
+                                    <div className="col text-center py-4">
+                                        <img src={values} alt="" width={50} />
+                                    </div>
                                 </div>
-                                <p>To offer world class chai experience in traditional styled Indian cafés at affordable prices for all chai lovers across the globe. </p>
+                                <p>The customer is at the center of our service delivery, and we are committed to upholding the highest standards in our service delivery to all our customers. </p>
                             </div>
                         </div>
                         <div className="col-lg-4 col-sm-6 p-4">
                             <div className='missionbox'>
-                                <h3>OUR <span>MISSION</span></h3>
-                                <div className="col text-center py-4">
-                                    <img src={heart} alt="" width={50} />
+                                <div className='mission-inner'>
+                                    <h3>OUR <span>VISION</span></h3>
+                                    <div className="col text-center py-4">
+                                        <img src={vision} alt="" width={50} />
+                                    </div>
                                 </div>
-                                <p>To offer world class chai experience in traditional styled Indian cafés at affordable prices for all chai lovers across the globe. </p>
+                                <p>To become India’s favorite place to drink chai, to promote Indian culture and the usage of pottery in the world.</p>
                             </div>
                         </div>
                     </div>

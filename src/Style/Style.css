@@ -1,9 +1,9 @@
 body{
-    background-color: #000;
+    background: radial-gradient(50% 50% at 50% 50%, #C67B51 0%, rgba(198, 123, 81, 0.00) 100%), #A04323;
 }
 
 .navbar-bg{
-    background-color:  #353535;
+    background-color:  #3A150C;
     padding: 20px 0px;
 }
 
@@ -59,7 +59,7 @@ body{
     text-align: center;
     width: 215px;
     margin: 0px auto;
-    background-color: #353535;
+    background-color: #D67848;
     padding: 15px;
     border-radius: 15px;
     margin-top: 50px;
@@ -78,13 +78,14 @@ text-transform: uppercase;
 }
 
 
-.banner1cup{
-    margin-top: -170px;
-}
+ 
  
 /* homeabout  */
 .home-about{
-    background-color: #1C1C1C;
+    background: rgba(58, 21, 12, 0.40);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+ 
+
     padding: 65px 75px;
     border-radius: 35px;
 }
@@ -168,9 +169,10 @@ color: #EFB290;
 }
 
 .missionbox {
-    background-color: #1C1C1C;
-    padding: 58px; 
+    background-color: #78321C;
+    padding: 47px 30px; 
     border-radius: 20px;
+    min-height: 372px;
 }
 .missionbox p{
     font-family: Poppins;
@@ -180,6 +182,9 @@ line-height: 24px;
 letter-spacing: 0em;
 text-align: center;
 color: #FFFFFF;
+}
+.mission-inner{
+    min-height: 140px;
 }
 .mission-bg{
     background-image: url('../Images/missionbg.png');
@@ -242,11 +247,11 @@ color: #FFAB83;
 
 /* footer  */
 .footer-main{
-    background-color:  #353535;
+    background-color:  #3A150C;
     padding: 50px 0px;
 }
 .footer-form input{
-background-color: #3E3E3E;
+background-color: #61443D;
 padding: 10px 20px;
 border: none;
 outline: none;
@@ -267,7 +272,7 @@ input::-webkit-inner-spin-button {
     font-family: Poppins;
     font-size: 20px;
     font-weight: 700;
-    color: #8B8B8B;
+    color: #fff;
     margin: 0;
 }
 
@@ -283,7 +288,7 @@ input::-webkit-inner-spin-button {
     font-family: Poppins;
     font-size: 16px;
     font-weight: 400;
-    color: #938E8E; 
+    color: #f2f2f2; 
 }
 .footer-nav a{
     text-decoration: none;
@@ -326,10 +331,10 @@ input::-webkit-inner-spin-button {
     line-height: 16px;
     letter-spacing: 0em;
     text-align: center;
-color: #938E8E;
+color: #ffffff;
 }
 .footer-copyright h3 span{
-    color: #FFAB83;
+    color: #ffffff;
     font-family: Poppins;
     font-size: 16px;
     font-weight: 600;
@@ -339,7 +344,7 @@ color: #938E8E;
 }
   
 .border1{
-    border: 1px solid #3E3E3E;
+    border: 1px solid #61443D;
 }
 
 
