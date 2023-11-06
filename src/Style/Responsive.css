@@ -97,10 +97,13 @@
         padding: 40px 0px;
     }
     .home-about { 
-        padding: 50px 50px; 
+        padding: 40px 40px; 
     }
     .operational-cafe-main {
         padding: 40px 0px;
+    }
+    .operational-cafe h2 { 
+        font-size: 32px; 
     }
     .operational-cafe p { 
         padding: 40px 15px;
@@ -121,5 +124,51 @@
     }
     .footer-text h3 { 
         text-align: left; 
+    }
+    .missionbox { 
+        padding: 21px 9px; 
+    }
+    
+}
+
+
+@media screen and (min-width:768px) and (max-width: 992px) {
+    .home-about { 
+        padding: 30px 30px; 
+    }
+    .banner1cup {
+        margin-top: -80px;
+    }
+    .operational-cafe h2 { 
+        font-size: 30px; 
+        line-height: 47px; 
+    }
+    .operational-cafe p { 
+        padding-top: 8px;
+        padding-bottom: 22px;
+    }
+    .missionbox { 
+        padding: 30px; 
+    }
+    .operational-cafe-main {
+        padding: 40px 0px;
+    }
+    .mission-bg { 
+        padding: 40px 0px;
+    }
+    .footer-form input { 
+        font-size: 16px; 
+    }
+    .banner-main {
+        padding: 50px 0px;
+    }
+    .footer-text h3{
+        text-align: left;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .footer-text h3{
+        text-align: left;
     }
 }

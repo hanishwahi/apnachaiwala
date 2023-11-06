@@ -7,13 +7,13 @@ function AboutHome() {
             <div className="container-fluid home-about">
                 <div className="container-xl">
                     <div className="row align-items-center">
-                        <div className="col-lg-8 about-home-text">
+                        <div className="col-lg-8 col-md-7 about-home-text">
                             <h2>About</h2>
                             <h3>Apna Chai Wala</h3>
                             <p>Apna Chai Wala started outside a university in Jalandhar with a very small shop that served the best kulhad chai to students at a reasonable price.
                                 The place became an instant hit and this resulted in a chain of cafés.</p>
                         </div>
-                        <div className="col-lg-4">
+                        <div className="col-lg-4 col-md-5">
                             <img src={aboutcup} alt="" className='img-fluid'/>
                         </div>
                     </div>
