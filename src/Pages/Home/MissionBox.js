@@ -54,13 +54,17 @@ function MissionBox() {
                             <img src={heart} alt="" width={50} />
                         </div>
                         <p>Since our opening, we’re striving to deliver <span>quality products at affordable rates and amazing ambience,</span> people have been flocking in to experience Apna Chai Wala everywhere.</p>
+
                     </div>
-                    <div className='row text-center  justify-content-around'>
+
+
+                    <div className='row text-center justify-content-around'>
                         <div className="col-lg-4 col-md-4 col-sm-6">
                             <div className='mb-3'>
                                 <img src={girl1} alt="" className='img-fluid' />
                             </div>
                         </div>
+                         
                         <div className="col-lg-4 col-md-4 col-sm-6 girlbox-margin">
                             <div className='mb-3'>
                                 <img src={girl2} alt="" className='img-fluid' />
