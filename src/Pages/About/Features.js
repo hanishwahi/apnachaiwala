@@ -9,7 +9,7 @@ import original from '../../Images/original.png'
 function Features() {
     return (
         <>
-            <div className="container-fluid">
+            <div className="container-fluid features-main">
                 <div className="container-xl">
                     <div className="row abt-features justify-content-center">
                         <h2>Features Of </h2>

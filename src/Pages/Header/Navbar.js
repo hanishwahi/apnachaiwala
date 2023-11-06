@@ -4,12 +4,12 @@ import { Link } from 'react-router-dom'
 
 function Navbar() {
 
-const scrollToHome= ()=>{
-    window.scrollTo({
-        top:0,
-        behavior:'smooth'
-    })
-}
+    const scrollToHome = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        })
+    }
 
     return (
         <>
@@ -17,12 +17,12 @@ const scrollToHome= ()=>{
                 <div className="container-xl">
                     <div className="row align-items-center">
                         <div className="col-lg-6 col-sm-4">
-                           <Link to="/"> <img src={mainlogo} alt="" className='img-fluid' /></Link>
+                            <Link to="/"> <img src={mainlogo} alt="" className='img-fluid' /></Link>
                         </div>
                         <div className="col-lg-6 col-sm-8 align-self-center">
-                            <div className="navbar-main"> 
+                            <div className="navbar-main">
                                 <Link to='/about' onClick={scrollToHome}>About us</Link>
-                                <Link to='/career' onClick={scrollToHome}>Career</Link>
+                                 <Link to='/career' onClick={scrollToHome}>Career</Link>
                                 <Link to='/franchise' onClick={scrollToHome}>Franchise</Link>
                             </div>
                         </div>
