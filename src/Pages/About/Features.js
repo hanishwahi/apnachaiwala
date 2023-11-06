@@ -12,7 +12,7 @@ function Features() {
             <div className="container-fluid">
                 <div className="container-xl">
                     <div className="row abt-features justify-content-center">
-                        <h2>Features Of</h2>
+                        <h2>Features Of </h2>
                         <h3>Our Franchise</h3>
                         <p>We entered in the franchise market to offer a business opportunity to all the investors who are looking forward to enter the food and beverages industry and are looking for something unique and new.</p>
                     </div>
@@ -39,7 +39,7 @@ function Features() {
                                 <div className='feature-box'>
                                     <img src={fastroi} alt="" />
                                 </div>
-                                <h3>fastroi</h3>
+                                <h3>fast roi</h3>
                             </div>
                         </div>
 

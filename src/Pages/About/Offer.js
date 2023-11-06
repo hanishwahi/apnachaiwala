@@ -33,7 +33,7 @@ function Offer() {
                         <div className="col-lg-4 text-center">
                             <div className='abt-menu-box'>
                                 <img src={lemon} alt="" width={260}/>
-                                <h2>lemon</h2>
+                                <h2>Coolers</h2>
                             </div>
                         </div>
                         <div className="col-lg-4 text-center">
@@ -45,7 +45,7 @@ function Offer() {
                         <div className="col-lg-4 text-center">
                             <div className='abt-menu-box'>
                                 <img src={cofee} alt="" width={260}/>
-                                <h2>cofee</h2>
+                                <h2> cold coffee</h2>
                             </div>
                         </div>
                         <div className="col-lg-4 text-center">

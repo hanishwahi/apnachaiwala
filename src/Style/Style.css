@@ -257,9 +257,7 @@ body {
     font-weight: 400;
 }
 
-.footer-form input::placeholder {
-    color: #FFF;
-}
+ 
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
     -webkit-appearance: none;
@@ -316,7 +314,7 @@ input::-webkit-inner-spin-button {
 }
 
 .footer-border-right {
-    border-right: 3px solid #3E3E3E;
+    border-right: 3px solid #61443D;
 }
 
 .footer-copyright {
@@ -354,7 +352,8 @@ input::-webkit-inner-spin-button {
     font-size: 36px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
+    line-height: 38px;
+    margin: 0px;
 }
 .abt-banner-text h3 {
     color: #FFAB83;
@@ -378,7 +377,7 @@ input::-webkit-inner-spin-button {
 }
 
 .about-main {
-    padding: 60px 0;
+    padding: 80px 0 40px 0px;
 }
 .outlet-years {
     padding: 50px 0;
@@ -389,7 +388,7 @@ input::-webkit-inner-spin-button {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 60px 0;
+    padding: 40px 0;
 }
 .abt-offer-text h2 {
     color: #FFF;
@@ -398,7 +397,8 @@ input::-webkit-inner-spin-button {
     font-size: 36px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
+    line-height: 38px;
+    margin: 0px;
 }
 .abt-offer-text h3 {
     color: #FFAB83;
@@ -431,6 +431,7 @@ input::-webkit-inner-spin-button {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    text-transform: uppercase;
 }
 
 .abt-features h2 {
@@ -440,7 +441,7 @@ input::-webkit-inner-spin-button {
     font-size: 36px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
+    line-height: 38px;
 }
 .abt-features h3 {
     color: #FFAB83;
@@ -448,7 +449,7 @@ input::-webkit-inner-spin-button {
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
-    line-height: normal;
+    line-height: 30px;
     text-align: center;
 }
 
