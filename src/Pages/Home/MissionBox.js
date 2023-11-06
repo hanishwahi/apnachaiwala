@@ -48,13 +48,19 @@ function MissionBox() {
                     </div>
                     <div className='row text-center  justify-content-around'>
                         <div className="col-lg-4">
-                            <img src={girl1} alt="" className='img-fluid' />
+                            <div className='mb-3'>
+                                <img src={girl1} alt="" className='img-fluid' />
+                            </div>
                         </div>
                         <div className="col-lg-4 girlbox-margin">
-                            <img src={girl2} alt="" className='img-fluid' />
+                            <div className='mb-3'>
+                                <img src={girl2} alt="" className='img-fluid' />
+                            </div>
                         </div>
                         <div className="col-lg-4">
-                            <img src={girl3} alt="" className='img-fluid' />
+                            <div className='mb-3'>
+                                <img src={girl3} alt="" className='img-fluid' />
+                            </div>
                         </div>
                     </div>
                 </div>

@@ -9,11 +9,11 @@ function FooterNav() {
                 <div className="container-xl">
                     <div className="row">
                         <div className="footer-nav">
-                            <Link>Privacy Policy</Link>
-                            <Link>Terms and Conditions</Link>
-                            <Link>Our Sitemap</Link>
-                            <Link>Latest News</Link>
-                            <Link>Blog</Link>
+                            <Link><h2>Privacy Policy</h2></Link>
+                            <Link><h2>Terms and Conditions</h2></Link>
+                            <Link><h2>Our Sitemap</h2></Link>
+                            <Link><h2>Latest News</h2></Link>
+                            <Link><h2>Blog</h2></Link> 
                         </div>
                     </div>
                     <div className="footer-social">

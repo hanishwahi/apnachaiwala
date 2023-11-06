@@ -4,7 +4,7 @@ body{
 
 .navbar-bg{
     background-color:  #353535;
-    padding: 10px 0px;
+    padding: 20px 0px;
 }
 
 .navbar-main{
@@ -277,14 +277,17 @@ input::-webkit-inner-spin-button {
     width: 75%;
     margin: 50px auto;
 }
-.footer-nav a{
+.footer-nav a h2{
     text-decoration: none;
     font-family: Poppins;
     font-size: 16px;
     font-weight: 400;
-    color: #938E8E;
+    color: #938E8E; 
 }
-.footer-nav a:hover{
+.footer-nav a{
+    text-decoration: none;
+}
+.footer-nav a h2:hover{
     color: #FFAB83;
     font-weight: 700;
 }

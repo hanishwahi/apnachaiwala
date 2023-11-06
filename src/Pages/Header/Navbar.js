@@ -7,11 +7,11 @@ function Navbar() {
         <>
             <div className="container-fluid navbar-bg">
                 <div className="container-xl">
-                    <div className="row">
-                        <div className="col-lg-6">
+                    <div className="row align-items-center">
+                        <div className="col-lg-6 col-sm-4">
                             <img src={mainlogo} alt="" className='img-fluid' />
                         </div>
-                        <div className="col-lg-6 align-self-center">
+                        <div className="col-lg-6 col-sm-8 align-self-center">
                             <div className="navbar-main">
                                 <Link>Home</Link>
                                 <Link>About us</Link>
