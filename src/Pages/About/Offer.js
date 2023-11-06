@@ -1,6 +1,10 @@
 import React from 'react'
 import kulhad from '../../Images/kulhad.png'
-import burger from '../../Images/Burger.png'
+import burger from '../../Images/burger.png'
+import lemon from '../../Images/lemon.png'
+import pizza from '../../Images/pizza.png'
+import cofee from '../../Images/cofee.png'
+import fries from '../../Images/fries.png'
 
 function Offer() {
     return (
@@ -16,38 +20,38 @@ function Offer() {
                     <div className="row">
                         <div className="col-lg-4 text-center">
                             <div className='abt-menu-box'>
-                                <img src={kulhad} alt="" width={100}/>
+                                <img src={kulhad} alt="" width={260}/>
                                 <h2>CHAI</h2>
                             </div>
                         </div>
                         <div className="col-lg-4 text-center">
                             <div className='abt-menu-box'>
-                                <img src={burger} alt="" width={160}/>
+                                <img src={burger} alt="" width={260}/>
                                 <h2>BURGER</h2>
                             </div>
                         </div>
                         <div className="col-lg-4 text-center">
                             <div className='abt-menu-box'>
-                                <img src={burger} alt="" width={160}/>
-                                <h2>BURGER</h2>
+                                <img src={lemon} alt="" width={260}/>
+                                <h2>lemon</h2>
                             </div>
                         </div>
                         <div className="col-lg-4 text-center">
                             <div className='abt-menu-box'>
-                                <img src={burger} alt="" width={160}/>
-                                <h2>BURGER</h2>
+                                <img src={pizza} alt="" width={260}/>
+                                <h2>pizza</h2>
                             </div>
                         </div>
                         <div className="col-lg-4 text-center">
                             <div className='abt-menu-box'>
-                                <img src={burger} alt="" width={160}/>
-                                <h2>BURGER</h2>
+                                <img src={cofee} alt="" width={260}/>
+                                <h2>cofee</h2>
                             </div>
                         </div>
                         <div className="col-lg-4 text-center">
                             <div className='abt-menu-box'>
-                                <img src={burger} alt="" width={160}/>
-                                <h2>BURGER</h2>
+                                <img src={fries} alt="" width={260}/>
+                                <h2>fries</h2>
                             </div>
                         </div>
                     </div>
