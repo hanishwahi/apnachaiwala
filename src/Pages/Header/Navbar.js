@@ -22,8 +22,8 @@ const scrollToHome= ()=>{
                         <div className="col-lg-6 col-sm-8 align-self-center">
                             <div className="navbar-main"> 
                                 <Link to='/about' onClick={scrollToHome}>About us</Link>
-                                <Link>Career</Link>
-                                <Link>Franchise</Link>
+                                <Link to='/career' onClick={scrollToHome}>Career</Link>
+                                <Link to='/franchise' onClick={scrollToHome}>Franchise</Link>
                             </div>
                         </div>
                     </div>
