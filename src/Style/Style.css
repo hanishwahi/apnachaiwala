@@ -1,273 +1,271 @@
-body{
+body {
     background: radial-gradient(50% 50% at 50% 50%, #C67B51 0%, rgba(198, 123, 81, 0.00) 100%), #A04323;
 }
 
-.navbar-bg{
-    background-color:  #3A150C;
-    padding: 20px 0px;
+.navbar-bg {
+    background-color: #3A150C;
+    padding: 20px 0;
 }
 
-.navbar-main{
+.navbar-main {
     display: flex;
     justify-content: flex-end;
     gap: 24px;
     align-items: center;
 }
-.navbar-main a{
+.navbar-main a {
     text-decoration: none;
     font-family: Poppins;
     font-size: 16px;
     font-weight: 400;
     color: #fff;
 }
-.navbar-main a:hover{
+.navbar-main a:hover {
     color: #FFAB83;
     font-weight: 700;
 }
 
 /* banner  */
 
-.banner-main{
-    padding: 80px 0px;
+.banner-main {
+    padding: 80px 0;
 }
-.banner-text{
+.banner-text {
     width: 650px;
-    margin: 0px auto;
+    margin: 0 auto;
 }
 
-.banner-text h2{
+.banner-text h2 {
     font-family: Poppins;
     font-size: 36px;
     font-weight: 400;
     line-height: 54px;
-    letter-spacing: 0em;
+    letter-spacing: 0;
     text-align: center;
     color: #FFFFFF;
 }
 
-.banner-text h2 span{
+.banner-text h2 span {
     font-family: Poppins;
     font-size: 36px;
     font-weight: 700;
     line-height: 54px;
-    letter-spacing: 0em;
+    letter-spacing: 0;
     text-align: center;
     color: #FFAB83;
 }
 
-.banner-button{
+.banner-button {
     text-align: center;
     width: 215px;
-    margin: 0px auto;
+    margin: 50px auto 0;
     background-color: #D67848;
     padding: 15px;
     border-radius: 15px;
-    margin-top: 50px;
 }
- 
-.banner-button a{
+
+.banner-button a {
     font-family: Poppins;
-font-size: 20px;
-font-weight: 700;
-line-height: 30px;
-letter-spacing: 0em;
-text-align: center;
-color: #FFFFFF;
-text-decoration: none;
-text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
 
- 
- 
 /* homeabout  */
-.home-about{
+.home-about {
     background: rgba(58, 21, 12, 0.40);
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
- 
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+
 
     padding: 65px 75px;
     border-radius: 35px;
 }
-.about-home-text h2{
+.about-home-text h2 {
     font-family: Poppins;
-font-size: 36px;
-font-weight: 700;
-line-height: 36px;
-letter-spacing: 0em;
-text-align: left;
-color: #FFAB83;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0;
+    text-align: left;
+    color: #FFAB83;
 }
-.about-home-text h3{
+.about-home-text h3 {
     font-family: Poppins;
-font-size: 36px;
-font-weight: 400;
-line-height: 36px;
-letter-spacing: 0em;
-text-align: left;
-color: #FFFFFF;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0;
+    text-align: left;
+    color: #FFFFFF;
 }
 
-.about-home-text p{
+.about-home-text p {
     font-family: Poppins;
-font-size: 20px;
-font-weight: 400;
-line-height: 30px;
-letter-spacing: 0em;
-text-align: left;
-color: #FFFFFF;
-padding: 30px 0px 0px 0px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0;
+    text-align: left;
+    color: #FFFFFF;
+    padding: 30px 0 0;
 }
 
 /* operational cafe  */
-.operational-cafe-main{
-    padding: 50px 0px;
+.operational-cafe-main {
+    padding: 50px 0;
 }
-.operational-cafe h2{
+.operational-cafe h2 {
     font-family: Poppins;
-font-size: 38px;
-font-weight: 600;
-line-height: 57px;
-letter-spacing: 0em;
-text-align: left;
-color: #FFFFFF;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 57px;
+    letter-spacing: 0;
+    text-align: left;
+    color: #FFFFFF;
 }
-.operational-cafe p{
+.operational-cafe p {
     font-family: Poppins;
     font-size: 19px;
     font-weight: 400;
     line-height: 30px;
-    letter-spacing: 0em;
+    letter-spacing: 0;
     text-align: left;
     color: #FFFFFF;
     padding-top: 70px;
     padding-bottom: 70px;
 }
 
-.operational-cafe p span{
+.operational-cafe p span {
     font-family: Poppins;
     font-size: 19px;
     font-weight: 600;
     line-height: 30px;
-    letter-spacing: 0em;
+    letter-spacing: 0;
     text-align: left;
     color: #FFAB83;
 }
- 
+
 /* mission box   */
-.missionbox h3{
-font-family: Poppins;
-font-size: 22px;
-font-weight: 700;
-line-height: 33px;
-letter-spacing: 0em;
-text-align: center;
-color: #FFFFFF;
+.missionbox h3 {
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0;
+    text-align: center;
+    color: #FFFFFF;
 }
-.missionbox h3 span{
-color: #EFB290;
+.missionbox h3 span {
+    color: #EFB290;
 }
 
 .missionbox {
     background-color: #78321C;
-    padding: 47px 30px; 
+    padding: 47px 30px;
     border-radius: 20px;
     min-height: 372px;
 }
-.missionbox p{
+.missionbox p {
     font-family: Poppins;
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0em;
-text-align: center;
-color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0;
+    text-align: center;
+    color: #FFFFFF;
 }
-.mission-inner{
+.mission-inner {
     min-height: 140px;
 }
-.mission-bg{
+.mission-bg {
     background-image: url('../Images/missionbg.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    padding: 80px 0px;
+    padding: 80px 0;
 }
-.people-love h2{
+.people-love h2 {
     font-family: Poppins;
     font-size: 36px;
     font-weight: 400;
     line-height: 54px;
-    letter-spacing: 0em;
+    letter-spacing: 0;
     text-align: center;
     color: #FFFFFF;
 }
-.people-love{
+.people-love {
     width: 70%;
     margin: 60px auto;
 }
 
-.people-love h3{
+.people-love h3 {
     font-family: Poppins;
     font-size: 36px;
     font-weight: 700;
     line-height: 54px;
-    letter-spacing: 0em;
+    letter-spacing: 0;
     text-align: center;
     color: #FFAB83;
 }
-.people-love p{
+.people-love p {
     font-family: Poppins;
     font-size: 20px;
     font-weight: 400;
     line-height: 30px;
-    letter-spacing: 0em;
+    letter-spacing: 0;
     text-align: center;
     color: #FFFFFF;
 }
-.people-love p span{
+.people-love p span {
     font-family: Poppins;
-font-size: 20px;
-font-weight: 700;
-line-height: 30px;
-letter-spacing: 0em;
-text-align: center;
-color: #FFAB83;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0;
+    text-align: center;
+    color: #FFAB83;
 }
 
 /* girl box  */
- 
-.girlbox-margin{
+
+.girlbox-margin {
     margin-top: 80px;
 }
 
 
-
-
-
 /* footer  */
-.footer-main{
-    background-color:  #3A150C;
-    padding: 50px 0px;
+.footer-main {
+    background-color: #3A150C;
+    padding: 50px 0;
 }
-.footer-form input{
-background-color: #61443D;
-padding: 10px 20px;
-border: none;
-outline: none;
-width: 100%;
-border-radius: 10px;
-color: #fff;
-font-family: Poppins;
-font-size: 20px;
-font-weight: 400;
+.footer-form input {
+    background-color: #61443D;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    width: 100%;
+    border-radius: 10px;
+    color: #fff;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.footer-form input::placeholder {
+    color: #FFF;
 }
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
+    -webkit-appearance: none;
+    margin: 0;
 }
-.footer-text h3{
+.footer-text h3 {
     text-decoration: none;
     font-family: Poppins;
     font-size: 20px;
@@ -276,77 +274,216 @@ input::-webkit-inner-spin-button {
     margin: 0;
 }
 
-.footer-nav{
+.footer-nav {
     display: flex;
-    justify-content: space-around; 
-    align-items: center; 
+    justify-content: space-around;
+    align-items: center;
     width: 75%;
     margin: 50px auto;
 }
-.footer-nav a h2{
+.footer-nav a h2 {
     text-decoration: none;
     font-family: Poppins;
     font-size: 16px;
     font-weight: 400;
-    color: #f2f2f2; 
+    color: #f2f2f2;
 }
-.footer-nav a{
+.footer-nav a {
     text-decoration: none;
 }
-.footer-nav a h2:hover{
+.footer-nav a h2:hover {
     color: #FFAB83;
     font-weight: 700;
 }
 
-.footer-social{
+.footer-social {
     padding-bottom: 50px;
 }
-.footer-social{
+.footer-social {
     display: flex;
     justify-content: center;
-  
+
     align-items: center;
 }
-.footer-social i{
+.footer-social i {
     color: #000;
     font-size: 24px;
     background-color: #FFAB83;
     padding: 8px 11px;
     border-radius: 10px;
     cursor: pointer;
-    margin: 0px 20px;
+    margin: 0 20px;
 }
 
-.footer-border-right{
+.footer-border-right {
     border-right: 3px solid #3E3E3E;
 }
 
-.footer-copyright{
-    padding: 20px 0px;
+.footer-copyright {
+    padding: 20px 0;
 }
-.footer-copyright h3{
+.footer-copyright h3 {
     font-family: Poppins;
     font-size: 16px;
     font-weight: 400;
     line-height: 16px;
-    letter-spacing: 0em;
+    letter-spacing: 0;
     text-align: center;
-color: #ffffff;
+    color: #ffffff;
 }
-.footer-copyright h3 span{
+.footer-copyright h3 span {
     color: #ffffff;
     font-family: Poppins;
     font-size: 16px;
     font-weight: 600;
     line-height: 16px;
-    letter-spacing: 0em;
+    letter-spacing: 0;
     text-align: center;
 }
-  
-.border1{
+
+.border1 {
     border: 1px solid #61443D;
 }
 
 
+/* about page  */
+.abt-banner-text h2 {
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.abt-banner-text h3 {
+    color: #FFAB83;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+}
 
- 
+.abt-banner-text p {
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 30px 0;
+}
+
+.about-main {
+    padding: 60px 0;
+}
+.outlet-years {
+    padding: 50px 0;
+}
+
+.offer-bg {
+    background-image: url('../Images/missionbg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 0;
+}
+.abt-offer-text h2 {
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.abt-offer-text h3 {
+    color: #FFAB83;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+}
+
+.abt-offer-text p {
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 1013px;
+    padding: 30px 0;
+}
+
+
+.abt-menu-box h2 {
+    color: #FFAB83;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.abt-features h2 {
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.abt-features h3 {
+    color: #FFAB83;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+}
+
+.abt-features p {
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 1013px;
+    padding: 30px 0;
+}
+
+.feature-box {
+    background-color: #222222;
+    padding: 45px 27px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.feature-box-text h3 {
+    text-transform: uppercase;
+    padding: 10px 0;
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1px;
+
+}
+.abt-feature-row {
+    padding: 40px 0;
+}

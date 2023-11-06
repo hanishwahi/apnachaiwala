@@ -1,8 +1,19 @@
 import React from 'react'
+import Header from '../Header/Header'
+import Footer from '../Footer/Footer'
+import AbtBanner from './AbtBanner'
+import Offer from './Offer'
+import Features from './Features'
 
 function About() {
   return (
-    <div>About</div>
+     <>
+     <Header/>
+     <AbtBanner/>
+     <Offer/>
+     <Features/>
+     <Footer/>
+     </>
   )
 }
 
