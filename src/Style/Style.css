@@ -24,8 +24,7 @@ body {
     color: #FFAB83;
     font-weight: 700;
 }
- 
- 
+
 
 /* banner  */
 
@@ -262,7 +261,7 @@ body {
     color: #8a7873;
 }
 
- 
+
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
     -webkit-appearance: none;
@@ -358,7 +357,7 @@ input::-webkit-inner-spin-button {
     font-style: normal;
     font-weight: 400;
     line-height: 38px;
-    margin: 0px;
+    margin: 0;
 }
 .abt-banner-text h3 {
     color: #FFAB83;
@@ -379,14 +378,14 @@ input::-webkit-inner-spin-button {
     font-weight: 400;
     line-height: normal;
     padding: 30px 0;
-    margin: 0px;
+    margin: 0;
 }
 
 .about-main {
-    padding: 80px 0 55px 0px;
+    padding: 80px 0 55px;
 }
 .outlet-years {
-    padding: 50px 0px 0px 0px;
+    padding: 50px 0 0;
 }
 
 .offer-bg {
@@ -404,7 +403,7 @@ input::-webkit-inner-spin-button {
     font-style: normal;
     font-weight: 400;
     line-height: 38px;
-    margin: 0px;
+    margin: 0;
 }
 .abt-offer-text h3 {
     color: #FFAB83;
@@ -426,7 +425,7 @@ input::-webkit-inner-spin-button {
     line-height: normal;
     width: 1013px;
     padding: 30px 0;
-    margin: 0px auto;
+    margin: 0 auto;
 }
 
 
@@ -441,8 +440,8 @@ input::-webkit-inner-spin-button {
     text-transform: uppercase;
 }
 
-.features-main{
-    padding: 55px 0px;
+.features-main {
+    padding: 55px 0;
 }
 
 .abt-features h2 {
@@ -503,11 +502,11 @@ input::-webkit-inner-spin-button {
 
 /* career  */
 
-.career-main{
-    padding: 80px 0px;
+.career-main {
+    padding: 80px 0;
 }
 
-.career-text h2{
+.career-text h2 {
     color: #FFF;
     text-align: center;
     font-family: Poppins;
@@ -516,7 +515,7 @@ input::-webkit-inner-spin-button {
     font-weight: 400;
     line-height: normal;
 }
-.career-text h3{
+.career-text h3 {
     color: #FFAB83;
     font-family: Poppins;
     font-size: 36px;
@@ -525,13 +524,222 @@ input::-webkit-inner-spin-button {
     line-height: normal;
     text-align: center;
 }
-.career-text p{
+.career-text p {
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 40px 0;
+}
+
+
+/* franchise  */
+.container-new {
+    width: 92%;
+    margin: 0 0 0 auto;
+}
+
+.franchise-text p {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 658px;
+}
+.franchise-text p span {
+    color: #FFAB83;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.franchise-button {
+    padding: 40px 0;
+}
+.franchise-button a {
+    background: #D67848;
+    border-radius: 20px;
+    color: #fff;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 13px 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+.container-franchise {
+    width: 70%;
+    margin: 40px auto;
+}
+.franchise-bg {
+    background-image: url('../Images/missionbg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 55px 0;
+}
+
+.franchise-box {
+    background-color: #78321C;
+    text-align: center;
+    padding: 50px;
+    border-radius: 30px;
+    margin-bottom: 80px;
+}
+
+.franchise-box p {
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+.franchise-box p span {
+    color: #FFAB83;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+.journey-text h2 {
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0px;
+}
+.journey-text h3 {
+    color: #FFAB83;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+}
+.journey-box p{
     color: #FFF;
 text-align: center;
 font-family: Poppins;
 font-size: 16px;
 font-style: normal;
-font-weight: 400;
+font-weight: 300;
 line-height: normal;
-padding: 40px 0px;
+}
+.journey-box p span{
+    color: #FFAB83;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+
+/* slider  */
+ 
+ 
+  .slick-slider {
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  
+  
+  
+ 
+  
+  .slick-prev  {
+    font-size: 0;
+    line-height: 0;
+    position: absolute; 
+    top: 100% !important;
+    display: block;
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    transform: translate(0, -50%);
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+  
+  .slick-next { 
+    width: 50px;
+    right: 0; 
+    top: 100% !important;
+    position: absolute;
+    height: 50px; 
+    z-index: 1;
+    border-radius: 50%;
+   }
+  
+   
+  .slick-prev:before {
+    /* font-family: 'slick'; */ 
+    font-size: 20px;
+    line-height: 1;
+    opacity: .75;
+    color: white;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: url('../Images/slickarrowleft.png') !important;
+}
+   .slick-next:before {
+    /* font-family: 'slick'; */ 
+    font-size: 20px;
+    line-height: 1;
+    opacity: .75;
+    color: white;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: url('../Images/slickarrowright.png') !important;
+}
+ 
+ 
+  .center .slick-center h2 {
+    
+    transform: scale(1.08);
+}
+.slick-prev, .slick-next {
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    display: block;
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    transform: translate(0, -50%);
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+.slick-slide{ 
+    display: flex !important;
+    justify-content: center !important;
 }
