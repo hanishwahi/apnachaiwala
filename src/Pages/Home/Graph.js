@@ -18,7 +18,7 @@ function Graph() {
                             </div>
                         </div>
                         <div className="col-lg-7 col-md-7 text-end">
-                            <img src={linegraph} alt="" className='img-fluid'/>
+                            <img src={linegraph} alt="" className='img-fluid' loading='lazy'/>
                         </div>
                     </div>
                 </div>

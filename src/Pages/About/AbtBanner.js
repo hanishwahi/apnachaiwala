@@ -16,7 +16,7 @@ function AbtBanner() {
                     </div>
                     <div className='row outlet-years'>
                         <div className="col text-center">
-                            <img src={outletyears} alt="" className='img-fluid' />
+                            <img src={outletyears} alt="" className='img-fluid' loading='lazy'/>
                         </div>
                     </div>
                 </div>

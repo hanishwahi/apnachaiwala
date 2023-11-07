@@ -136,6 +136,19 @@
     .offer-bg { 
         background-size: contain; 
     }
+    .career-text h2 { 
+        font-size: 24px; 
+        line-height: 30px;
+    }
+    .career-text h3 { 
+        font-size: 32px; 
+    }
+    .abt-offer-text p{
+        width: 100%;
+    }
+    .abt-features p{
+        width: 100%;
+    }
 }
 
 

@@ -14,7 +14,7 @@ function AboutHome() {
                                 The place became an instant hit and this resulted in a chain of cafés.</p>
                         </div>
                         <div className="col-lg-4 col-md-5">
-                            <img src={aboutcup} alt="" className='img-fluid'/>
+                            <img src={aboutcup} alt="" className='img-fluid' loading='lazy'/>
                         </div>
                     </div>
                 </div>

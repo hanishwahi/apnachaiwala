@@ -24,37 +24,37 @@ function Offer() {
                     <div className="row p-4">
                         <div className="col-lg-4 col-sm-4 col-6 text-center">
                             <div className='abt-menu-box'>
-                                <img src={kulhad} alt="" className='img-fluid' />
+                                <img src={kulhad} alt="" className='img-fluid' loading='lazy' />
                                 <h2>CHAI</h2>
                             </div>
                         </div>
                         <div className="col-lg-4 col-sm-4 col-6 text-center">
                             <div className='abt-menu-box'>
-                                <img src={burger} alt="" className='img-fluid' />
+                                <img src={burger} alt="" className='img-fluid' loading='lazy' />
                                 <h2>BURGER</h2>
                             </div>
                         </div>
                         <div className="col-lg-4 col-sm-4 col-6 text-center">
                             <div className='abt-menu-box'>
-                                <img src={lemon} alt="" className='img-fluid' />
+                                <img src={lemon} alt="" className='img-fluid' loading='lazy' />
                                 <h2>Coolers</h2>
                             </div>
                         </div>
                         <div className="col-lg-4 col-sm-4 col-6 text-center">
                             <div className='abt-menu-box'>
-                                <img src={pizza} alt="" className='img-fluid' />
+                                <img src={pizza} alt="" className='img-fluid' loading='lazy' />
                                 <h2>pizza</h2>
                             </div>
                         </div>
                         <div className="col-lg-4 col-sm-4 col-6 text-center">
                             <div className='abt-menu-box'>
-                                <img src={cofee} alt="" className='img-fluid' />
+                                <img src={cofee} alt="" className='img-fluid' loading='lazy' />
                                 <h2> cold coffee</h2>
                             </div>
                         </div>
                         <div className="col-lg-4 col-sm-4 col-6 text-center">
                             <div className='abt-menu-box'>
-                                <img src={fries} alt="" className='img-fluid' />
+                                <img src={fries} alt="" className='img-fluid' loading='lazy' />
                                 <h2>fries</h2>
                             </div>
                         </div>

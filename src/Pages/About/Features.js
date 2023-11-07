@@ -23,7 +23,7 @@ function Features() {
                         <div className="col-lg-2 col-sm-4 col-6">
                             <div className='feature-box-text'>
                                 <div className='feature-box'>
-                                    <img src={thumb} alt="" />
+                                    <img src={thumb} alt="" loading='lazy'/>
                                 </div>
                                 <h3>Support</h3>
                             </div>
@@ -31,7 +31,7 @@ function Features() {
                         <div className="col-lg-2 col-sm-4 col-6">
                             <div className='feature-box-text'>
                                 <div className='feature-box'>
-                                    <img src={Unique} alt="" />
+                                    <img src={Unique} alt="" loading='lazy'/>
                                 </div>
                                 <h3>Unique</h3>
                             </div>
@@ -39,7 +39,7 @@ function Features() {
                         <div className="col-lg-2 col-sm-4 col-6">
                             <div className='feature-box-text'>
                                 <div className='feature-box'>
-                                    <img src={fastroi} alt="" />
+                                    <img src={fastroi} alt="" loading='lazy'/>
                                 </div>
                                 <h3>fast roi</h3>
                             </div>
@@ -50,7 +50,7 @@ function Features() {
                         <div className="col-lg-2 col-sm-4 col-6">
                             <div className='feature-box-text'>
                                 <div className='feature-box'>
-                                    <img src={marketing} alt="" />
+                                    <img src={marketing} alt="" loading='lazy'/>
                                 </div>
                                 <h3>marketing</h3>
                             </div>
@@ -58,7 +58,7 @@ function Features() {
                         <div className="col-lg-2 col-sm-4 col-6">
                             <div className='feature-box-text'>
                                 <div className='feature-box'>
-                                    <img src={quality} alt="" />
+                                    <img src={quality} alt="" loading='lazy'/>
                                 </div>
                                 <h3>quality</h3>
                             </div>
@@ -66,7 +66,7 @@ function Features() {
                         <div className="col-lg-2 col-sm-4 col-6">
                             <div className='feature-box-text'>
                                 <div className='feature-box'>
-                                    <img src={original} alt="" />
+                                    <img src={original} alt="" loading='lazy'/>
                                 </div>
                                 <h3>original</h3>
                             </div>

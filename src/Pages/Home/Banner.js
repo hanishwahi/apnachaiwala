@@ -20,7 +20,7 @@ function Banner() {
                     </div>
                     <div className="row">
                         <div className="col banner1cup">
-                            <img src={banner1cup} alt="" className='img-fluid' />
+                            <img src={banner1cup} alt="" className='img-fluid' loading='lazy'/>
                         </div>
                     </div>
                     <AboutHome />
