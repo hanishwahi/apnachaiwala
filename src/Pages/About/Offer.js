@@ -13,9 +13,11 @@ function Offer() {
                 <div className="container-xl">
                     <div className="row abt-offer-text justify-content-center">
                         <div className="row">
-                            <h2>What Do</h2>
-                            <h3> We Offer</h3>
-                            <p>Our menu has variety of products starting from the obvious ‘Chai’ that we take pride in with serving 6+ flavours of tea, we offer mouth watering pizzas, fries. Delicious cold coffees and refreshing coolers are also a part of our menu.</p>
+                            <div className="col">
+                                <h2>What Do</h2>
+                                <h3> We Offer</h3>
+                                <p>Our menu has variety of products starting from the obvious ‘Chai’ that we take pride in with serving 6+ flavours of tea, we offer mouth watering pizzas, fries. Delicious cold coffees and refreshing coolers are also a part of our menu.</p>
+                            </div>
                         </div>
                     </div>
 

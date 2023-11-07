@@ -426,7 +426,7 @@ input::-webkit-inner-spin-button {
     line-height: normal;
     width: 1013px;
     padding: 30px 0;
-    margin: 0px;
+    margin: 0px auto;
 }
 
 
@@ -498,4 +498,40 @@ input::-webkit-inner-spin-button {
 }
 .abt-feature-row {
     padding: 40px 0;
+}
+
+
+/* career  */
+
+.career-main{
+    padding: 80px 0px;
+}
+
+.career-text h2{
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.career-text h3{
+    color: #FFAB83;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+}
+.career-text p{
+    color: #FFF;
+text-align: center;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding: 40px 0px;
 }
