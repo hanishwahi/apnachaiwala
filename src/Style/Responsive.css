@@ -18,10 +18,10 @@
         font-size: 32px;
     }
     .about-home-text h3 {
-        font-size: 32px;
+        font-size: 24px;
     }
     .about-home-text p {
-        font-size: 18px;
+        font-size: 17px;
         line-height: 28px;
         padding: 18px 0 0;
     }
@@ -30,9 +30,13 @@
     }
     .operational-cafe p {
         padding: 20px 13px;
+        font-size: 17px;
     }
     .operational-cafe-main {
         padding: 40px 0;
+    }
+    .missionbox { 
+        min-height: auto;
     }
     .mission-bg {
         padding: 40px 0;
@@ -52,119 +56,207 @@
         font-size: 32px;
         line-height: 40px;
     }
-    .people-love p { 
-        font-size: 18px; 
-        line-height: 30px; 
+    .people-love p {
+        font-size: 17px;
+        line-height: 30px;
     }
-    .people-love p span { 
-        font-size: 18px; 
+    .people-love p span {
+        font-size: 17px;
     }
     .girlbox-margin {
-        margin-top: 0px;
+        margin-top: 0;
     }
-    .footer-form input { 
-        margin-bottom: 20px; 
+    .footer-form input {
+        margin-bottom: 20px;
     }
-    .footer-text h3 { 
-        text-align: left; 
+    .footer-text h3 {
+        text-align: left;
     }
     .footer-nav {
-        display: inline; 
+        display: inline;
         width: 95%;
         margin: 40px auto;
     }
-    .navbar-bg { 
-        padding: 12px 0px;
+    .navbar-bg {
+        padding: 12px 0;
     }
-    .navbar-main { 
+    .navbar-main {
         margin-top: 10px;
     }
-     
-    .banner-button { 
+
+    .banner-button {
         margin-top: 30px;
         padding: 10px;
     }
-    .banner-button a { 
-        font-size: 18px; 
+    .banner-button a {
+        font-size: 18px;
+    }
+
+
+    /* about page  */
+    .abt-banner-text p {
+        text-align: justify;
+    }
+    .outlet-years {
+        padding: 30px 0px 0px 0px;
+    }
+    .offer-bg { 
+        padding: 30px 0;
+    }
+    .features-main {
+        padding: 30px 0px;
+    }
+    .abt-feature-row {
+        padding: 30px 0;
+    }
+    .about-main {
+        padding: 50px 0 30px 0px;
+    }
+    .abt-banner-text h2 { 
+        font-size: 24px; 
+        line-height: 28px; 
+    }
+    .abt-banner-text h3 {  
+        font-size: 32px; 
+    }
+    .abt-offer-text h2 { 
+        font-size: 24px; 
+        line-height: 28px; 
+    }
+    .abt-offer-text h3 { 
+        font-size: 32px; 
+    }
+    .abt-features h2 { 
+        font-size: 24px; 
+        line-height: 28px;
+    }
+    .abt-features h3 { 
+        font-size: 32px; 
+    }
+    .offer-bg { 
+        background-size: contain; 
     }
 }
 
 
 @media screen and (min-width: 577px) and (max-width: 767px) {
     .banner-main {
-        padding: 40px 0px;
+        padding: 40px 0;
     }
-    .home-about { 
-        padding: 40px 40px; 
+    .home-about {
+        padding: 40px;
     }
-    .operational-cafe-main {
-        padding: 40px 0px;
+    .banner-text h2 { 
+        font-size: 32px; 
+        line-height: 44px; ;
     }
-    .operational-cafe h2 { 
+    .banner-text h2 span { 
+        font-size: 32px; 
+        line-height: 44px; 
+    }
+    .about-home-text h3 { 
         font-size: 32px; 
     }
+    .about-home-text h2 { 
+        font-size: 32px; 
+    }
+    .about-home-text p { 
+        font-size: 17px; 
+    }
+    .people-love p { 
+        font-size: 17px; 
+    }
+    .people-love p span { 
+        font-size: 17px; 
+    }
     .operational-cafe p { 
+        font-size: 17px; 
+        line-height: 27px; 
+    }
+    .operational-cafe-main {
+        padding: 40px 0;
+    }
+    .operational-cafe h2 {
+        font-size: 32px;
+    }
+    .operational-cafe p {
         padding: 40px 15px;
     }
-    .mission-bg { 
-        padding: 50px 0px;
+    .mission-bg {
+        padding: 50px 0;
     }
-    .people-love { 
+    .people-love {
         margin: 50px auto;
     }
-    .footer-form input { 
-        margin-bottom: 20px; 
+    .footer-form input {
+        margin-bottom: 20px;
     }
     .footer-nav {
-        display: inline; 
+        display: inline;
         width: 95%;
         margin: 40px auto;
     }
-    .footer-text h3 { 
-        text-align: left; 
+    .footer-text h3 {
+        text-align: left;
     }
-    .missionbox { 
-        padding: 21px 9px; 
+    .missionbox {
+        padding: 21px 9px;
     }
-    
+/* about page  */
+.offer-bg { 
+    background-size: contain; 
+    padding: 30px 0;
+}
+.about-main {
+    padding: 50px 0 30px 0px;
+}
+.features-main {
+    padding: 30px 0px;
+}
+.abt-features p { 
+    width: 100%; 
+}
 }
 
 
 @media screen and (min-width:768px) and (max-width: 992px) {
-    .home-about { 
-        padding: 30px 30px; 
+    .home-about {
+        padding: 30px;
     }
-     
-    .operational-cafe h2 { 
-        font-size: 30px; 
-        line-height: 47px; 
+
+    .operational-cafe h2 {
+        font-size: 30px;
+        line-height: 47px;
     }
-    .operational-cafe p { 
+    .operational-cafe p {
         padding-top: 8px;
         padding-bottom: 22px;
     }
-    .missionbox { 
-        padding: 30px; 
+    .missionbox {
+        padding: 30px;
     }
     .operational-cafe-main {
-        padding: 40px 0px;
+        padding: 40px 0;
     }
-    .mission-bg { 
-        padding: 40px 0px;
+    .mission-bg {
+        padding: 40px 0;
     }
-    .footer-form input { 
-        font-size: 16px; 
+    .footer-form input {
+        font-size: 16px;
     }
     .banner-main {
-        padding: 50px 0px;
+        padding: 50px 0;
     }
-    .footer-text h3{
+    .footer-text h3 {
         text-align: left;
+    }
+    .abt-features p { 
+        width: 100%; 
     }
 }
 
-@media screen and (min-width: 992px){
-    .footer-text h3{
+@media screen and (min-width: 992px) {
+    .footer-text h3 {
         text-align: left;
     }
 }

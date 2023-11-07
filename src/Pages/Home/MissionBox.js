@@ -13,7 +13,7 @@ function MissionBox() {
             <div className="container-fluid mission-bg">
                 <div className="container-xl">
                     <div className="row justify-content-around">
-                        <div className="col-lg-4 col-sm-6 p-4">
+                        <div className="col-lg-4 col-sm-6 p-md-4 mb-3">
                             <div className='missionbox'>
                                 <div className='mission-inner'>
                                     <h3>OUR <span>MISSION</span></h3>
@@ -24,7 +24,7 @@ function MissionBox() {
                                 <p>To offer world class chai experience in traditional styled Indian cafés at affordable prices for all chai lovers across the globe. </p>
                             </div>
                         </div>
-                        <div className="col-lg-4 col-sm-6 p-4">
+                        <div className="col-lg-4 col-sm-6 p-md-4 mb-3">
                             <div className='missionbox'>
                                 <div className='mission-inner'>
                                     <h3>OUR <span>VALUES</span></h3>
@@ -35,7 +35,7 @@ function MissionBox() {
                                 <p>The customer is at the center of our service delivery, and we are committed to upholding the highest standards in our service delivery to all our customers. </p>
                             </div>
                         </div>
-                        <div className="col-lg-4 col-sm-6 p-4">
+                        <div className="col-lg-4 col-sm-6 p-md-4 mb-3">
                             <div className='missionbox'>
                                 <div className='mission-inner'>
                                     <h3>OUR <span>VISION</span></h3>

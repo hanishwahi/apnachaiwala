@@ -17,7 +17,7 @@ function Navbar() {
                 <div className="container-xl">
                     <div className="row align-items-center">
                         <div className="col-lg-6 col-sm-4">
-                            <Link to="/"> <img src={mainlogo} alt="" className='img-fluid' /></Link>
+                            <Link to="/" onClick={scrollToHome}> <img src={mainlogo} alt="" className='img-fluid' /></Link>
                         </div>
                         <div className="col-lg-6 col-sm-8 align-self-center">
                             <div className="navbar-main">
