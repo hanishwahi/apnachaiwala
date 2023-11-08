@@ -537,6 +537,10 @@ input::-webkit-inner-spin-button {
 
 
 /* franchise  */
+
+.franchisee-banner{
+    padding: 100px 0px 60px 0px;
+}
 .container-new {
     width: 92%;
     margin: 0 0 0 auto;
@@ -668,7 +672,7 @@ input::-webkit-inner-spin-button {
     font-size: 0;
     line-height: 0;
     position: absolute;
-    top: 100% !important;
+    /* top: 100% !important; */
     display: block;
     width: 20px;
     height: 20px;
@@ -684,7 +688,7 @@ input::-webkit-inner-spin-button {
 .slick-next {
     width: 50px;
     right: 0;
-    top: 100% !important;
+    /* top: 100% !important; */
     position: absolute;
     height: 50px;
     z-index: 1;
@@ -745,6 +749,9 @@ input::-webkit-inner-spin-button {
 
 
 /* success stories  */
+.success-stories-main{
+    padding: 70px 0px;
+}
 
 .success-stories {
     background-color: #78321C;

@@ -11,19 +11,19 @@ function Journey() {
                 <h3>With These Easy Steps</h3>
             </div>
             <div className="row justify-content-around">
-                <div className="col-lg-3">
+                <div className="col-lg-3 col-sm-6">
                     <div className="journey-box">
                         <img src={one} alt="" width="100%"/>
                         <p>Contact <span>high operational standards</span> with high quality equipments and gadgets equipped in the kitchen.</p>
                     </div>
                 </div>
-                <div className="col-lg-3">
+                <div className="col-lg-3 col-sm-6">
                     <div className="journey-box">
                         <img src={two} alt="" width="100%"/>
                         <p>Contact <span>high operational standards</span> with high quality equipments and gadgets equipped in the kitchen.</p>
                     </div>
                 </div>
-                <div className="col-lg-3">
+                <div className="col-lg-3 col-sm-6">
                     <div className="journey-box">
                         <img src={three} alt="" width="100%"/>
                         <p>Contact <span>high operational standards</span> with high quality equipments and gadgets equipped in the kitchen.</p>

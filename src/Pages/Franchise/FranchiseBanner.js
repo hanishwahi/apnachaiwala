@@ -5,9 +5,9 @@ import { Link } from 'react-router-dom'
 function FranchiseBanner() {
     return (
         <>
-            <div className="container-fluid">
-                <div className="container-new">
-                    <div className="row align-items-center">
+            <div className="container-fluid ">
+                <div className="container-new franchisee-banner">
+                    <div className="row align-items-center ">
                         <div className="col-lg-8 franchise-text">
                             <div>
                                 <p>rem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh <span>euismod tincidunt ut laoreet</span> dolore magna aliquam erat volutpat. Ut wisi enim ad minim </p>
@@ -16,7 +16,7 @@ function FranchiseBanner() {
                                 <Link>Get Franchise</Link>  
                             </div>
                         </div>
-                        <div className="col-lg-4 px-0">
+                        <div className="col-lg-4 px-0 text-end">
                             <img src={kulhadinhand} alt="" className='img-fluid' />
                         </div>
                     </div>
