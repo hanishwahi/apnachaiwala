@@ -5,6 +5,7 @@ import FranchiseBanner from './FranchiseBanner'
 import FranchiseBox from './FranchiseBox' 
 import SuccessStories from './SuccessStories'
 import Slider1 from './Slider'
+import FranchiseInput from './FranchiseInput'
 function Franchise() {
   return (
     <>
@@ -13,6 +14,7 @@ function Franchise() {
       <FranchiseBox /> 
       <Slider1 />
       <SuccessStories />
+      <FranchiseInput/>
       <Footer />
     </>
   )
