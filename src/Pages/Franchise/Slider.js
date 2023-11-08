@@ -20,33 +20,35 @@ function Slider1() {
     };
     return (
         <>
-            <Slider {...settings}>
-                <div> 
-                    <img src={image} alt=""  className="text-center" />
-                </div>
-                <div> 
-                    <img src={image} alt=""  className="text-center" />
-                </div>
-                <div> 
-                    <img src={image} alt=""  className="text-center" />
-                </div>
-                <div> 
-                    <img src={image} alt=""  className="text-center" />
-                </div>
-                <div> 
-                    <img src={image} alt=""  className="text-center" />
-                </div>
-                <div> 
-                    <img src={image} alt=""  className="text-center" />
-                </div>
-                <div> 
-                    <img src={image} alt=""  className="text-center" />
-                </div>
-                <div> 
-                    <img src={image} alt=""  className="text-center" />
-                </div>
- 
-            </Slider>
+            <div>
+                <Slider {...settings} className="my-5">
+                    <div>
+                        <img src={image} alt="" className="text-center" />
+                    </div>
+                    <div>
+                        <img src={image} alt="" className="text-center" />
+                    </div>
+                    <div>
+                        <img src={image} alt="" className="text-center" />
+                    </div>
+                    <div>
+                        <img src={image} alt="" className="text-center" />
+                    </div>
+                    <div>
+                        <img src={image} alt="" className="text-center" />
+                    </div>
+                    <div>
+                        <img src={image} alt="" className="text-center" />
+                    </div>
+                    <div>
+                        <img src={image} alt="" className="text-center" />
+                    </div>
+                    <div>
+                        <img src={image} alt="" className="text-center" />
+                    </div>
+
+                </Slider>
+            </div>
         </>
     )
 }
