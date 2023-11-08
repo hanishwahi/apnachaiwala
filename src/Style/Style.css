@@ -803,3 +803,22 @@ input::-webkit-inner-spin-button {
     font-weight: 400;
     line-height: normal;
 }
+
+.testimonial-block{
+    position: relative;
+}
+.upper-quote{
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    opacity: 0.5;
+    left: 50px;
+}
+.lower-quote{
+    position: absolute;
+    /* top: 0; */
+    z-index: -1;
+    opacity: 0.5;
+    right: 40px;
+    bottom: -20px;
+}
