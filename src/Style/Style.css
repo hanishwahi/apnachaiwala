@@ -580,16 +580,12 @@ input::-webkit-inner-spin-button {
 }
 
 
-.container-franchise {
-    width: 70%;
-    margin: 0 auto;
-}
+ 
 .franchise-bg {
     background-image: url('../Images/missionbg.png');
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
-    padding: 55px 0;
+    background-size: cover; 
 }
 
 .franchise-box {

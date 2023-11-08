@@ -1,14 +1,14 @@
 import React from 'react'
 import badge from '../../Images/franchisebadge1.png'
-import Journey from './Journey' 
+import Journey from './Journey'
 
 
 function FranchiseBox() {
 
     return (
         <>
-            <div className="franchise-bg">
-                <div className="container-franchise ">
+            <div className="container-fluid franchise-bg">
+                <div className="container-xl">
                     <div className="row justify-content-around">
                         <div className="col-lg-5 col-sm-6">
                             <div className='franchise-box'>
@@ -35,8 +35,10 @@ function FranchiseBox() {
                             </div>
                         </div>
                     </div>
-                    <Journey />
-                   
+                    <div className="row">
+                        <Journey />
+                    </div>
+
                 </div>
             </div>
 
