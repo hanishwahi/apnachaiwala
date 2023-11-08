@@ -538,8 +538,8 @@ input::-webkit-inner-spin-button {
 
 /* franchise  */
 
-.franchisee-banner{
-    padding: 100px 0px 60px 0px;
+.franchisee-banner {
+    padding: 100px 0 60px;
 }
 .container-new {
     width: 92%;
@@ -582,7 +582,7 @@ input::-webkit-inner-spin-button {
 
 .container-franchise {
     width: 70%;
-    margin: 0px auto;
+    margin: 0 auto;
 }
 .franchise-bg {
     background-image: url('../Images/missionbg.png');
@@ -671,8 +671,7 @@ input::-webkit-inner-spin-button {
 .slick-prev {
     font-size: 0;
     line-height: 0;
-    position: absolute;
-    /* top: 100% !important; */
+    position: absolute; 
     display: block;
     width: 20px;
     height: 20px;
@@ -687,8 +686,7 @@ input::-webkit-inner-spin-button {
 
 .slick-next {
     width: 50px;
-    right: 0;
-    /* top: 100% !important; */
+    right: 0; 
     position: absolute;
     height: 50px;
     z-index: 1;
@@ -749,8 +747,8 @@ input::-webkit-inner-spin-button {
 
 
 /* success stories  */
-.success-stories-main{
-    padding: 70px 0px;
+.success-stories-main {
+    padding: 70px 0;
 }
 
 .success-stories {
@@ -758,6 +756,7 @@ input::-webkit-inner-spin-button {
     width: 250px;
     padding: 30px;
     border-radius: 30px;
+    margin-bottom: 50px;
 }
 
 .success-stories h2 {
@@ -777,4 +776,34 @@ input::-webkit-inner-spin-button {
     font-weight: 400;
     line-height: 99.5%;
     text-align: center;
+}
+.testimonial-main{
+    padding: 40px 0px;
+}
+
+.testimonial p {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.testimonial h2 {
+    color: #FFAB83;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.testimonial h3 {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }

@@ -194,6 +194,19 @@
     .success-stories { 
         width: 200px; 
     }
+    .slick-next {
+        display: none !important;
+    }
+    .slick-prev {
+        display: none !important;
+    }
+    .success-stories-main {
+        padding: 40px 0;
+    }
+    .testimonial p { 
+        font-size: 14px; 
+    }
+
 }
 
 
@@ -300,6 +313,21 @@
 .success-stories h3 { 
     font-size: 28px; 
 }
+.slick-prev {
+    left: 0px !important;
+}
+.slick-next {
+    right: 0px !important;
+}
+.testimonial p { 
+    font-size: 18px; 
+}
+.success-stories-main {
+    padding: 40px 0;
+}
+.franchisee-banner {
+    padding: 50px 0 40px;
+}
 }
 
 
@@ -340,6 +368,13 @@
     .container-franchise {
         width: 95%;
         margin: 0px auto;
+    }
+    .slick-prev {
+        left: -41px !important;
+        font-size: 20px !important;
+    }
+    .slick-next {
+        right: -20px !important;
     }
 }
 
