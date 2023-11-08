@@ -10,7 +10,7 @@ import image from '../../Images/WhatsApp Image 2023-05-09 at 2.32 2.png'
 function Slider1() {
 
     const settings = {
-        dots: false,
+        dots: true,
         infinite: true,
         speed: 500,
         slidesToShow: 3,
