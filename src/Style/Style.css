@@ -620,7 +620,7 @@ input::-webkit-inner-spin-button {
     background-image: url('../Images/missionbg.png');
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; 
 }
 
 .franchise-box {
@@ -628,7 +628,7 @@ input::-webkit-inner-spin-button {
     text-align: center;
     padding: 50px;
     border-radius: 30px;
-    margin-bottom: 80px;
+    margin-bottom: 80px; 
 }
 
 .franchise-box p {
@@ -968,17 +968,16 @@ input::-webkit-inner-spin-button {
 .privacy-policy-text h2 {
     color: #FFAB83;
     font-family: Poppins;
-    font-size: 32px;
+    font-size: 28px;
     font-style: normal;
     font-weight: 700;
     line-height: 99.5%;
     /* 35.82px */
 }
 .privacy-policy-text p {
-    color: #FFF;
-font-family: Poppins;
-font-size: 17px;
-font-style: normal;
-font-weight: 300;
-line-height: normal;
+    text-decoration: none;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    color: #f2f2f2;
 }

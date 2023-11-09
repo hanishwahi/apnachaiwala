@@ -7,6 +7,7 @@ import About from "./Pages/About/About";
 import Franchise from "./Pages/Franchise/Franchise";
 import Career from "./Pages/Careers/Career";
 import PrivacyPolicy from "./Pages/PrivacyPolicy/PrivacyPolicy";
+import TermsConditions from "./Pages/TermsCondition/TermsConditions";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/franchise"  element={<Franchise/>}/>
           <Route path="/career"  element={<Career/>}/>
           <Route path="/privacy-policy"  element={<PrivacyPolicy/>}/>
+          <Route path="/terms-conditions"  element={<TermsConditions/>}/>
         </Routes>
       </BrowserRouter>
     </>

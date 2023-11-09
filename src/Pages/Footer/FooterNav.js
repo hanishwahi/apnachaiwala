@@ -20,7 +20,7 @@ import { Link } from 'react-router-dom'
                     <div className="row">
                         <div className="footer-nav">
                             <Link onClick={scrollToHome} to='/privacy-policy'><h2>Privacy Policy</h2></Link>
-                            <Link><h2>Terms and Conditions</h2></Link>
+                            <Link onClick={scrollToHome} to='/terms-conditions'><h2>Terms and Conditions</h2></Link>
                             <Link><h2>Our Sitemap</h2></Link>
                             <Link><h2>Latest News</h2></Link>
                             <Link><h2>Blog</h2></Link> 

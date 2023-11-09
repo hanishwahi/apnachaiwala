@@ -1,7 +1,7 @@
 import React from 'react'
 import badge from '../../Images/franchisebadge1.png'
 import Journey from './Journey'
-
+ 
 
 function FranchiseBox() {
 
@@ -38,6 +38,7 @@ function FranchiseBox() {
                     <div className="row">
                         <Journey />
                     </div>
+                    
 
                 </div>
             </div>
