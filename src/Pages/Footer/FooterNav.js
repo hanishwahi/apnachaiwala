@@ -1,7 +1,17 @@
-import React from 'react'
+import React  from 'react'
 import { Link } from 'react-router-dom'
 
-function FooterNav() {
+
+  function FooterNav() {
+ 
+    const scrollToHome= ()=>{
+            window.scrollTo({
+                top:0,
+                behavior:'smooth'
+            })
+        }
+   
+
     return (
         <>
 
@@ -9,7 +19,7 @@ function FooterNav() {
                 <div className="container-xl">
                     <div className="row">
                         <div className="footer-nav">
-                            <Link><h2>Privacy Policy</h2></Link>
+                            <Link onClick={scrollToHome} to='/privacy-policy'><h2>Privacy Policy</h2></Link>
                             <Link><h2>Terms and Conditions</h2></Link>
                             <Link><h2>Our Sitemap</h2></Link>
                             <Link><h2>Latest News</h2></Link>
