@@ -200,7 +200,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    padding: 80px 0;
+    padding: 70px 0;
 }
 
 .people-love h2 {
@@ -616,11 +616,13 @@ input::-webkit-inner-spin-button {
 }
 
 
+ 
 .franchise-bg {
     background-image: url('../Images/missionbg.png');
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover; 
+    background-size: contain;
+    padding: 70px 0;
 }
 
 .franchise-box {
@@ -717,6 +719,7 @@ input::-webkit-inner-spin-button {
     border: none;
     outline: none;
     background: transparent;
+    left: -45px !important;
 }
 
 .slick-next {
