@@ -631,6 +631,10 @@ input::-webkit-inner-spin-button {
     padding: 50px;
     border-radius: 30px;
     margin-bottom: 80px; 
+    min-height: 306px;
+}
+.franchise-box img{
+    margin-bottom: 30px;
 }
 
 .franchise-box p {
