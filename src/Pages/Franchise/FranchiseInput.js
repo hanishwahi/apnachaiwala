@@ -43,8 +43,7 @@ function FranchiseInput() {
         if (Object.keys(validationErrors).length === 0) {
          }
     
-        console.log("validationErrors2", err2);
-    };
+     };
     
 
 
