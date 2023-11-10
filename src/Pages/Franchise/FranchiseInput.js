@@ -8,41 +8,44 @@ function FranchiseInput() {
     const [budget, setBudget] = useState("")
     const [profession, setProfession] = useState("")
     const [err, setError] = useState(false)
+    const [err2, setError2] = useState(false)
 
 
     const handleSubmit = (e) => {
-        e.preventDefault()
-        const userDetails = { name, phone, email, address, budget, profession }
-        const validationErrors = {}
-
+        e.preventDefault();
+        const userDetails = { name, phone, email, address, budget, profession };
+        const validationErrors = {};
+        const validationErrors2 = {};
+    
         if (!name) {
-            validationErrors.name = "name is required"
+            validationErrors.name = "name is required";
         }
         if (!phone) {
-            validationErrors.phone = "phone is required"
+            validationErrors.phone = "phone is required";
+        } else if (phone.replace(/\D/g, "").length < 10 || phone.length >10) {
+            validationErrors2.phone = "minimum 10 digits";
         }
         if (!email) {
-            validationErrors.email = "email is required"
+            validationErrors.email = "email is required";
         }
         if (!address) {
-            validationErrors.address = "address is required"
+            validationErrors.address = "address is required";
         }
         if (!budget) {
-            validationErrors.budget = "budget is required"
+            validationErrors.budget = "budget is required";
         }
         if (!profession) {
-            validationErrors.profession = "profession is required"
+            validationErrors.profession = "profession is required";
         }
-
-        setError(validationErrors)
+    
+        setError(validationErrors);
+        setError2(validationErrors2);
         if (Object.keys(validationErrors).length === 0) {
-
-        }
-
-
-        console.log(userDetails)
-
-    }
+         }
+    
+        console.log("validationErrors2", err2);
+    };
+    
 
 
     return (
@@ -54,16 +57,18 @@ function FranchiseInput() {
                             <div className="col-lg-4 col-sm-6 form-inner">
                                 <label htmlFor=""><span>Your</span> Name</label> <br />
                                 <div className='mb-5'>
-                                    <input onChange={(e) => { setName(e.target.value); setError((prevErrors) => ({ ...prevErrors, name: '' })); }} type="text" placeholder='Enter Your Name' name='name' autoComplete='off' />
+                                    <input onChange={(e) => { setName(e.target.value); setError((prevErrors) => ({ ...prevErrors, name: '' }));}} type="text" placeholder='Enter Your Name' name='name' autoComplete='off' />
 
                                     {err.name ? <><span style={{ color: "#fff" }}>{err.name}</span></> : null}
+                                   
                                 </div>
                             </div>
                             <div className="col-lg-4 col-sm-6 form-inner">
                                 <label htmlFor=""><span>Phone</span> Number</label> <br />
                                 <div className="mb-5">
-                                    <input onChange={(e) => { setPhone(e.target.value); setError((prevErrors) => ({ ...prevErrors, phone: '' })); }} type="number" placeholder='Enter Phone Number' name='phone' autoComplete='off' />
-                                    {err.phone ? <><span style={{ color: "#fff" }}>{err.phone}</span></> : null}
+                                    <input onChange={(e) => { setPhone(e.target.value); setError((prevErrors) => ({ ...prevErrors, phone: '' })) }} type="number" placeholder='Enter Phone Number' name='phone' autoComplete='off' />
+                                    {err.phone ? <><span style={{ color: "#fff" }}>{err.phone}</span></> : null} <br />
+                                    {err2.phone ? <><span style={{ color: "#fff" }}>{err2.phone}</span></> : null}
                                 </div>
                             </div>
                             <div className="col-lg-4 col-sm-6 form-inner">
@@ -112,7 +117,7 @@ function FranchiseInput() {
                                         </div>
 
                                     </div>
-                                    <div className="col">
+                                    <div className="col text-center py-5">
                                         <button onClick={handleSubmit}>Submit</button>
                                     </div>
                                 </div>
