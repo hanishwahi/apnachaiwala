@@ -960,6 +960,21 @@ input::-webkit-inner-spin-button {
     line-height: 99.5%;
     margin: 0px;
 }
+.submit-button button{
+    background-color: #1C1C1C;
+    border: 1px solid #fff;
+    padding: 10px 20px;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 10px;
+    font-family: Poppins;
+    font-size: 20px;
+}
+
+.submit-button button:hover{
+    background-color: #C67B51;
+    color: #000; 
+}
 
 
 /* privacy policy  */

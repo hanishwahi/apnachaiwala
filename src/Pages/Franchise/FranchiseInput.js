@@ -18,24 +18,24 @@ function FranchiseInput() {
         const validationErrors2 = {};
     
         if (!name) {
-            validationErrors.name = "name is required";
+            validationErrors.name = "Please fill the input";
         }
         if (!phone) {
-            validationErrors.phone = "phone is required";
+            validationErrors.phone = "Please fill the input";
         } else if (phone.replace(/\D/g, "").length < 10 || phone.length >10) {
-            validationErrors2.phone = "minimum 10 digits";
+            validationErrors2.phone = "Minimum 10 digits required";
         }
         if (!email) {
-            validationErrors.email = "email is required";
+            validationErrors.email = "Please fill the input";
         }
         if (!address) {
-            validationErrors.address = "address is required";
+            validationErrors.address = "Please fill the input";
         }
         if (!budget) {
-            validationErrors.budget = "budget is required";
+            validationErrors.budget = "Please fill the input";
         }
         if (!profession) {
-            validationErrors.profession = "profession is required";
+            validationErrors.profession = "Please fill the input";
         }
     
         setError(validationErrors);
@@ -117,7 +117,7 @@ function FranchiseInput() {
                                         </div>
 
                                     </div>
-                                    <div className="col text-center py-5">
+                                    <div className="col text-center py-5 submit-button">
                                         <button onClick={handleSubmit}>Submit</button>
                                     </div>
                                 </div>
