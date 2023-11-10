@@ -913,8 +913,7 @@ input::-webkit-inner-spin-button {
     color: #fff;
     font-family: Poppins;
     font-size: 20px;
-    font-weight: 400;
-    margin-bottom: 50px;
+    font-weight: 400; 
 }
 
 .form-inner input::placeholder {
