@@ -260,7 +260,8 @@ body {
     background-color: #3A150C;
     padding: 50px 0;
 }
-.footer-form{
+
+.footer-form {
     min-height: 72px;
 }
 
@@ -620,7 +621,7 @@ input::-webkit-inner-spin-button {
 }
 
 
- 
+
 .franchise-bg {
     background-image: url('../Images/missionbg.png');
     background-position: center;
@@ -634,10 +635,11 @@ input::-webkit-inner-spin-button {
     text-align: center;
     padding: 50px;
     border-radius: 30px;
-    margin-bottom: 80px; 
+    margin-bottom: 80px;
     min-height: 306px;
 }
-.franchise-box img{
+
+.franchise-box img {
     margin-bottom: 30px;
 }
 
@@ -917,7 +919,7 @@ input::-webkit-inner-spin-button {
     color: #fff;
     font-family: Poppins;
     font-size: 20px;
-    font-weight: 400; 
+    font-weight: 400;
 }
 
 .form-inner input::placeholder {
@@ -964,7 +966,8 @@ input::-webkit-inner-spin-button {
     line-height: 99.5%;
     margin: 0px;
 }
-.submit-button button{
+
+.submit-button button {
     background-color: #1C1C1C;
     border: 1px solid #fff;
     padding: 10px 20px;
@@ -975,21 +978,22 @@ input::-webkit-inner-spin-button {
     font-size: 20px;
 }
 
-.submit-button button:hover{
+.submit-button button:hover {
     background-color: #C67B51;
-    color: #000; 
+    color: #000;
 }
 
 
 /* privacy policy  */
 
-.privacy-policy-main{
+.privacy-policy-main {
     padding: 80px 0px;
 }
 
-.privacy-policy-text{
+.privacy-policy-text {
     padding-bottom: 30px;
 }
+
 .privacy-policy-text h2 {
     color: #FFAB83;
     font-family: Poppins;
@@ -999,10 +1003,84 @@ input::-webkit-inner-spin-button {
     line-height: 99.5%;
     /* 35.82px */
 }
+
 .privacy-policy-text p {
     text-decoration: none;
     font-family: Poppins;
     font-size: 16px;
     font-weight: 400;
     color: #f2f2f2;
+}
+
+
+/* admin portal  */
+
+.card {
+    width: 400px;
+    border: none; 
+}
+
+
+.btr {
+    border-top-right-radius: 5px !important;
+}
+
+
+.btl {
+    border-top-left-radius: 5px !important;
+}
+
+.btn-dark {
+    color: #fff;
+    background-color: #A04323;
+    border-color: #A04323;
+}
+
+
+.btn-dark:hover {
+    color: #fff;
+    background-color: #C67B51;
+    border-color: #C67B51;
+}
+
+
+.nav-pills {
+    display: table !important;
+    width: 100%;
+}
+
+.nav-pills .nav-link {
+    border-radius: 0px;
+    color: #78321C;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #78321C;
+}
+
+.nav-item {
+    display: table-cell;
+    background: #FFAB83;
+}
+
+
+.form {
+    padding: 10px; 
+}
+
+.form input {
+    margin-bottom: 12px;
+    border-radius: 3px;
+}
+
+
+.form input:focus {
+    box-shadow: none;
+}
+
+
+.form button {
+    margin-top: 20px;
 }
