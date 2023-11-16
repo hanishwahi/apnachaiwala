@@ -9,10 +9,10 @@ function FooterInput() {
 
 
 
-    const handleCallSubmit = (e) => {
+    const handleCallSubmit = async (e) => {
         e.preventDefault();
         const callData = { name, phone }
-      
+
         const validationErrors = {};
         const validationErrors2 = {};
         if (!name) {
@@ -20,15 +20,24 @@ function FooterInput() {
         }
         if (!phone) {
             validationErrors.phone = "Please fill the input";
-        } else if (phone.replace(/\D/g, "").length < 10 || phone.length >10) {
+        } else if (phone.replace(/\D/g, "").length < 10 || phone.length > 10) {
             validationErrors2.phone = "minimum 10 digits number";
         }
-        else{
+        else {
             console.log(callData);
+            const response = await fetch('https://example.com/api/data', {
+                method: 'POST',
+                body: JSON.stringify(callData),
+                headers: {
+                    'Content-Type': 'application/json'
+                }
+            });
+            const result = await response.json();
+            console.log(result);
         }
         setErr(validationErrors);
         setError2(validationErrors2);
-       
+
     }
 
 
@@ -45,7 +54,7 @@ function FooterInput() {
                         <div className="col-lg-4 col-md-4 col-sm-6 footer-form">
                             <input type="number" placeholder='ENTER PHONE NUMBER' onChange={(e) => { setPhone(e.target.value); setErr((prevErr) => ({ ...prevErr, phone: '' })); }} />
                             {err.phone ? <><span style={{ color: "#fff" }}>{err.phone}</span></> : null} <br />
-                                    {err2.phone ? <><span style={{ color: "#fff" }}>{err2.phone}</span></> : null}
+                            {err2.phone ? <><span style={{ color: "#fff" }}>{err2.phone}</span></> : null}
                         </div>
                         <div className="col-lg-4 col-md-4 footer-form">
                             <div className="row align-items-center justify-content-between text-end">
