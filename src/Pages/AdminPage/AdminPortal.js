@@ -1,7 +1,9 @@
 import React from 'react'
-import {Helmet} from 'react-helmet';
+import { Helmet } from 'react-helmet';
 import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
+import { Link } from 'react-router-dom';
+import google from '../../Images/download-removebg-preview.png'
 
 
 function AdminPortal() {
@@ -10,12 +12,12 @@ function AdminPortal() {
             <Helmet>
                 <style>{'body {background: radial-gradient(50% 50% at 50% 50%, #fff 0%, #fff 100%), #fff;}'}</style>
             </Helmet>
-            <Header/>
+            <Header />
             <div className='container-fluid'>
                 <div className="container">
                     <div className="row py-5">
                         <div class="d-flex justify-content-center align-items-center">
-  
+
                             <div class="card border">
                                 <ul class="nav nav-pills " id="pills-tab" role="tablist">
                                     <li class="nav-item text-center">
@@ -30,12 +32,18 @@ function AdminPortal() {
                                     <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
 
                                         <div class="form px-4 py-5" >
-                                            <div className=""> 
+                                            <div className="d-flex align-items-center gap-2 mb-4">
+                                                <p className='mb-0'>Login with</p> 
+                                                <img src={google} alt="" width={20}/>
+                                            </div>
+
+                                            <div className="mb-4">
                                                 <input type="text" name="" class="form-control" placeholder="Email or Phone" />
                                             </div>
-                                            <div className=""> 
+                                            <div className="">
                                                 <input type="text" name="" class="form-control" placeholder="Password" />
                                             </div>
+                                            <Link>Forgot Password?</Link> <br />
                                             <button class="btn btn-dark btn-block">Login</button>
 
                                         </div>
@@ -46,19 +54,19 @@ function AdminPortal() {
                                     <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
                                         <div class="form px-4 py-5">
                                             <div>
-                                                 <input type="text" name="" class="form-control" placeholder="Name" />
+                                                <input type="text" name="" class="form-control" placeholder="Name" />
                                             </div>
 
                                             <div className="">
-                                                 <input type="text" name="" class="form-control" placeholder="Email" />
+                                                <input type="text" name="" class="form-control" placeholder="Email" />
                                             </div>
 
                                             <div className="">
-                                                 <input type="text" name="" class="form-control" placeholder="Phone" />
+                                                <input type="text" name="" class="form-control" placeholder="Phone" />
                                             </div>
 
                                             <div className="">
-                                                 <input type="text" name="" class="form-control" placeholder="Password" />
+                                                <input type="text" name="" class="form-control" placeholder="Password" />
                                             </div>
 
                                             <button class="btn btn-dark btn-block">Signup</button>
@@ -83,7 +91,7 @@ function AdminPortal() {
                     </div>
                 </div>
             </div>
-            <Footer/>
+            <Footer />
 
         </>
     )
