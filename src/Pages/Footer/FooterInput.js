@@ -36,8 +36,7 @@ function FooterInput() {
             console.log(result);
         }
         setErr(validationErrors);
-        setError2(validationErrors2);
-
+        setError2(validationErrors2); 
     }
 
 
