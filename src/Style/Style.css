@@ -260,6 +260,9 @@ body {
     background-color: #3A150C;
     padding: 50px 0;
 }
+.footer-form{
+    min-height: 72px;
+}
 
 .footer-form input {
     background-color: #61443D;
@@ -292,6 +295,7 @@ input::-webkit-inner-spin-button {
     font-weight: 700;
     color: #fff;
     margin: 0;
+    cursor: pointer;
 }
 
 .footer-nav {

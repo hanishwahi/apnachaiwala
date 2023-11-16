@@ -8,6 +8,8 @@ import Franchise from "./Pages/Franchise/Franchise";
 import Career from "./Pages/Careers/Career";
 import PrivacyPolicy from "./Pages/PrivacyPolicy/PrivacyPolicy";
 import TermsConditions from "./Pages/TermsCondition/TermsConditions";
+import Blog from "./Pages/Blogs/Blog";
+import AdminPortal from "./Pages/AdminPage/AdminPortal";
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
           <Route path="/career"  element={<Career/>}/>
           <Route path="/privacy-policy"  element={<PrivacyPolicy/>}/>
           <Route path="/terms-conditions"  element={<TermsConditions/>}/>
+          <Route path="/blog"  element={<Blog/>}/>
+          <Route path="/admin-login"  element={<AdminPortal/>}/>
         </Routes>
       </BrowserRouter>
     </>

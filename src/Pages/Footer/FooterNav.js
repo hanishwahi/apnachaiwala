@@ -23,13 +23,13 @@ import { Link } from 'react-router-dom'
                             <Link onClick={scrollToHome} to='/terms-conditions'><h2>Terms and Conditions</h2></Link>
                             <Link><h2>Our Sitemap</h2></Link>
                             <Link><h2>Latest News</h2></Link>
-                            <Link><h2>Blog</h2></Link> 
+                            <Link onClick={scrollToHome} to='/blog'><h2>Blog</h2></Link> 
                         </div>
                     </div>
                     <div className="footer-social">
-                       <div className='footer-border-right'><i class="fa-brands fa-facebook-f"></i></div>
-                       <div className='footer-border-right'><i class="fa-brands fa-instagram"></i></div>
-                       <div  ><i class="fa-brands fa-youtube"></i></div>
+                       <div className='footer-border-right'><Link target="_blank" to='https://www.facebook.com/apnachaiwala1/'><i  className="fa-brands fa-facebook-f"></i></Link></div>
+                       <div className='footer-border-right'><Link target="_blank" to='https://www.instagram.com/apna_chaiwala/'><i  className="fa-brands fa-instagram"></i></Link></div>
+                       <div> <Link target="_blank" to='https://www.youtube.com/@APNACHAIWALA'><i  className="fa-brands fa-youtube"></i></Link></div>
                 
                     </div>
 
