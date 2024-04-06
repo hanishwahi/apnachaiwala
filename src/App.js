@@ -24,6 +24,8 @@ function App() {
           <Route path="/terms-conditions"  element={<TermsConditions/>}/>
           <Route path="/blog"  element={<Blog/>}/>
           <Route path="/admin-login"  element={<AdminPortal/>}/>
+
+  
         </Routes>
       </BrowserRouter>
     </>
