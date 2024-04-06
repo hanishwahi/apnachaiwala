@@ -1,6 +1,6 @@
 import React from 'react'
 import kulhad from '../../Images/kulhad.png'
-import burger from '../../Images/burger.png'
+import burger from '../../Images/Burger.png'
 import lemon from '../../Images/lemon.png'
 import pizza from '../../Images/pizza.png'
 import cofee from '../../Images/cofee.png'
