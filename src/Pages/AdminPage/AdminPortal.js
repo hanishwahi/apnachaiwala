@@ -1,12 +1,12 @@
-import React,{useState} from 'react'
+import React, { useState } from 'react'
 import { Helmet } from 'react-helmet';
 import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
 import { Link } from 'react-router-dom';
 import google from '../../Images/download-removebg-preview.png'
-import {Icon} from 'react-icons-kit';
-import {eyeOff} from 'react-icons-kit/feather/eyeOff';
-import {eye} from 'react-icons-kit/feather/eye'
+import { Icon } from 'react-icons-kit';
+import { eyeOff } from 'react-icons-kit/feather/eyeOff';
+import { eye } from 'react-icons-kit/feather/eye'
 
 
 function AdminPortal() {
@@ -16,20 +16,21 @@ function AdminPortal() {
 
 
     const handleToggle = () => {
-        if (type==='password'){
-           setIcon(eye);
-           setType('text')
+        if (type === 'password') {
+            setIcon(eye);
+            setType('text')
         } else {
-           setIcon(eyeOff)
-           setType('password')
+            setIcon(eyeOff)
+            setType('password')
         }
-     }
+    }
     return (
         <>
             <Helmet>
                 <style>{'body {background: radial-gradient(50% 50% at 50% 50%, #fff 0%, #fff 100%), #fff;}'}</style>
             </Helmet>
             <Header />
+
             <div className='container-fluid'>
                 <div className="container">
                     <div className="row py-5">
@@ -58,7 +59,7 @@ function AdminPortal() {
                                                 <input type="text" name="" className="form-control" placeholder="Email or Phone" />
                                             </div>
                                             <div className="d-flex border mb-3">
-                                                <input name="" className="form-control border-0 mb-0" placeholder="Password" type={type} autoComplete="current-password"  onChange={(e) => setPassword(e.target.value)}/>
+                                                <input name="" className="form-control border-0 mb-0" placeholder="Password" type={type} autoComplete="current-password" onChange={(e) => setPassword(e.target.value)} />
                                                 <span className="flex justify-around items-center" onClick={handleToggle}>
                                                     <Icon className="absolute mr-10 p-1" icon={icon} size={20} />
                                                 </span>
@@ -86,7 +87,7 @@ function AdminPortal() {
                                             </div>
 
                                             <div className=" d-flex border">
-                                                <input name="" className="form-control border-0 mb-0" placeholder="Password" type={type} autoComplete="current-password"/>
+                                                <input name="" className="form-control border-0 mb-0" placeholder="Password" type={type} autoComplete="current-password" />
                                                 <span className="flex justify-around items-center" onClick={handleToggle}>
                                                     <Icon className="absolute mr-10 p-1" icon={icon} size={20} />
                                                 </span>
